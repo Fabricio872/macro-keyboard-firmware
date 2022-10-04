@@ -1,0 +1,68 @@
+[
+  {
+    "string": {
+      "keys": "string input",
+      "layout": "en_us",
+    },
+    "color": [255, 0, 0]
+  },
+  {
+    "string": {
+      "keys": "string input",
+      "layout": "en_us",
+    },
+    "color": [255, 0, 0]
+  },
+  {
+    "string": {
+      "keys": "\n",
+      "layout": "en_us",
+    },
+    "color": [255, 0, 0]
+  },
+  {
+    "consumerControl":[
+      233
+    ],
+    "color": [255, 0, 0]
+  },
+  {
+    "consumerControl":[
+      234
+    ],
+    "color": [255, 100, 0]
+  },
+  {
+    "string": {
+      "keys": "¯\\_(ツ)_/¯",
+      "layout": "en_us",
+    },
+    "color": [255, 0, 0]
+  },
+  {
+    "consumerControl":[
+      234
+    ],
+    "color": [3, 173, 252],
+    "repeat": {
+      "after": 500,
+      "delay": 50
+    }
+  },
+  {
+    "consumerControl":[
+      226
+    ],
+    "color": [3, 173, 252]
+  },
+  {
+    "consumerControl":[
+      233
+    ],
+    "color": [3, 173, 252],
+    "repeat": {
+      "after": 500,
+      "delay": 50
+    }
+  }
+]

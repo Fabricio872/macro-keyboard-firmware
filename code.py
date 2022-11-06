@@ -34,6 +34,13 @@ def main():
     lastButtonPressed = now()
 
     while True:
+        try:
+            kbd = Keyboardext(usb_hid.devices)
+            consumer_control = ConsumerControl(usb_hid.devices)
+        except:
+            pixels.brightness = 0
+            print("Keyboard disconnected")
+
         if now() - lastButtonPressed > sleepTime:
             pixels.brightness = .1
 
